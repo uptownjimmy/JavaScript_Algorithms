@@ -1,3 +1,5 @@
+// with an array and a target value as arguments, returns an array of arrays 
+// containing value pairs that equal the target value
 var twoSum = (numbersArray, target) => {
     let sums = [];
     let map = {};
