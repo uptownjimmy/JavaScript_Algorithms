@@ -3,7 +3,7 @@
 
 var maxProfit = (prices) => {
     let minPrice = 99999;
-    let maxprofit = null;
+    let maxprofit = 0;
 
     prices.forEach(currentPrice => {
         if (currentPrice < minPrice) {
@@ -12,7 +12,7 @@ var maxProfit = (prices) => {
             maxprofit = currentPrice - minPrice;
         }
     });
-    
+
     return maxprofit;
 }
 
