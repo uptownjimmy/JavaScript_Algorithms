@@ -1,6 +1,6 @@
 // find the optimal profit, given 1) an array of numbers, and
 // 2) requirements to only buy once and then sell once
-// 
+
 var maxProfit = (prices) => {
     let minPrice = 99999;
     let maxprofit = null;
@@ -11,9 +11,8 @@ var maxProfit = (prices) => {
         } else if ((currentPrice - minPrice) > maxprofit) {
             maxprofit = currentPrice - minPrice;
         }
-
-        
     });
+    
     return maxprofit;
 }
 
