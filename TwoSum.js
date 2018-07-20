@@ -1,5 +1,5 @@
-// with an array and a target value as arguments, returns an array of arrays 
-// containing value pairs that equal the target value
+// With an array and a target value as arguments, returns an array of arrays 
+// containing value pairs that equal the target value;
 // Time Complexity: O(n)
 
 var twoSum = (numbersArray, target) => {
