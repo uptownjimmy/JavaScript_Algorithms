@@ -1,5 +1,6 @@
 // determine whether an array contains any duplicates;
 // sort first to order any duplicates consecutively
+// Time Complexity: O(n log n)
 
 var containsDuplicate = (numbers) => {
     let doesContainDuplicate = false;

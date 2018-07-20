@@ -1,5 +1,6 @@
 // find the optimal profit, given 1) an array of numbers, and
 // 2) requirements to only buy once and then sell once
+// Time Complexity: O(n)
 
 var maxProfit = (prices) => {
     let minPrice = 99999;
