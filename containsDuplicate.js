@@ -6,7 +6,7 @@ var containsDuplicate = (numbers) => {
     numbers.sort();
     numbers.forEach((element, i) => {
         if (element === numbers[i + 1]) {
-            doesContainDuplicate = true;;
+            doesContainDuplicate = true;
         }
     });
 
